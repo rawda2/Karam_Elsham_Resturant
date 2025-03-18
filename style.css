@@ -74,6 +74,7 @@ nav i{
     background-image: url("./images/homr.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     padding:80px;
        height: 100vh;
 
@@ -332,7 +333,7 @@ nav i{
 
 
 .map{
-    margin-top: 70px;
+    margin-top: 90px;
     padding: 50px;
     position: relative;
     background-color: #ffffff;
