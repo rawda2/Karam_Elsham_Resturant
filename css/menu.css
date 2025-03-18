@@ -1,0 +1,49 @@
+
+.menu_head{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/menuBG.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: polygon(0% 0%, 100% 0, 100% 66%, 0 95%, 0 94%);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.menu_head h2{
+    font-size: 100px;
+    letter-spacing: 3px;
+}
+.menuSection{
+    position: relative;
+    top: -100px;
+}
+
+.menuSection .menu{
+    width: 48%;
+
+}
+
+.menuSection .menu span{
+    color:#FFD71B ;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.menu-map{
+    margin-top: 30px;
+}
+.map .menu_caption{
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(0,0,0,1) 55%, rgb(0, 0, 0) 100%);
+}
+
+.form {
+    bottom: -20px;
+}
+footer{
+    bottom: -20px;
+}
