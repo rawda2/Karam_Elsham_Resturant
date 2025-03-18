@@ -26,11 +26,12 @@
     }
 
     .head .caption {
-        padding: 20% 0;
+        padding: 0% 0;
     }
 
     .whyUs {
         padding: 0;
+        flex-direction: column-reverse;
     }
 
     .whyUs .left {
@@ -81,7 +82,7 @@
     }
     .map .map_caption {
        margin: 0 1px;
-       left: 10%;
+       left: 15%;
       top: -100px;
         width: 70%;
     }
@@ -153,7 +154,10 @@
     .random p {
         width: 100%;
     }
-
+   .header .caption{
+    top: -100px;
+    left: -10px;
+   }
     .about_main .part .left {
         width: 80%;
     }
@@ -167,7 +171,7 @@
         width: 80%;
         margin: 5% 0;
     }
-
+     
     .contact_form {
         padding: 2%;
         height: 700px;
